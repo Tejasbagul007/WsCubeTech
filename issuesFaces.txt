@@ -1,0 +1,31 @@
+Issue: AsyncStorage and React Native Async Storage Version Mismatch
+1) When I'm implementing data storage using AsyncStorage, there was an error related to version mismatch between the AsyncStorage package used in the code and the React Native version.
+Solution: The issue was resolved by ensuring that the @react-native-async-storage/async-storage package was correctly installed and compatible with the React Native version.
+
+Issue: Platform-Specific Styling
+2)The requirement was to apply different margins based on the platform (iOS and Android).
+Challenge: Achieving platform-specific styling required conditionally applying styles based on the platform.
+Solution: The Platform module from React Native was used to apply different margins for Android and iOS. The appropriate margin values were added to styles using platform-specific conditions.
+
+Issue: Generating Standalone APK with Expo
+3)While generating a standalone APK using Expo, there were challenges in configuring build settings and handling the build process.
+Challenge: Understanding the Expo build configuration and providing necessary information (e.g., keystore, release/debug settings) for generating the APK.
+Solution: The official Expo documentation was thoroughly followed to correctly configure build settings and handle the APK generation process. This included selecting build type (debug/release), specifying keystore information, and addressing any build errors encountered.
+
+Issue: Image Zooming Implementation
+4)Implementing image zooming using the PinchGestureHandler posed challenges in handling the gesture events and scaling images.
+Challenge: Understanding the PinchGestureHandler component and managing the scaling of images in response to pinch gestures.
+Solution: The official documentation for the react-native-gesture-handler library was referred to for guidance on using PinchGestureHandler. The implementation involved handling gesture events and updating image scaling accordingly.
+Conclusion and Overcoming Challenges
+
+Issue: Testing Configuration
+5) react-test-renderer is required to set as per the same react version available
+solution: checked version and downloaded specific version of react-test-renderer.
+
+
+Lessons Learned and Recommendations
+
+Regularly referencing official documentation for React Native, Expo, and third-party libraries is crucial for understanding and overcoming challenges.
+Engaging with online developer communities and forums can provide insights and solutions for common development issues.
+Conducting thorough testing at each stage helps identify and address issues early, leading to a more stable and reliable application.
+Overall, the project underscored the significance of perseverance, resourcefulness, and continuous learning in navigating the intricacies of mobile app development using React Native and Expo.

@@ -1,0 +1,9 @@
+// for running
+1) unzipped file of apks from drive drag the app into simulator/emulator.
+2) open the app
+3) if required do npm install, else npm run android to see application running smoothly or not.
+
+// for testing
+1) run command npm test or npm run test
+2) check the test cases as I have done with snapshot testing running successfully with no errors.
+
